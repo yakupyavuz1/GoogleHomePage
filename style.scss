@@ -1,0 +1,180 @@
+* {
+                    padding: 0;
+                    margin: 0;
+                    box-sizing: border-box;
+                    text-decoration: none;
+                    font-family: arial, sans-serif;
+                }
+                
+                body {
+                    display: flex;
+                    flex-direction: column;
+                    min-height: 100px;
+                }
+                
+                nav {
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    margin-right: 20px;
+                    margin-top: 14px;
+                }
+                
+                nav a {
+                    font-size: 12px;
+                    display: inline-block;
+                    line-height: 25px;
+                    font-weight: 400;
+                    color: $blackTextColor;
+                    cursor: pointer;
+                    padding: 6px;
+                }
+                
+                nav a:hover {
+                    text-decoration: underline;
+                }
+                
+                nav img {
+                    width: 40px;
+                    padding: 5px;
+                    margin: auto 5px;
+                    cursor: pointer;
+                }
+                
+                nav img:hover {
+                    background-color: $googleAppsIconHoverColor;
+                    border: 1px;
+                    border-radius: 50px;
+                }
+                
+                nav button {
+                    height: 40px;
+                    width: 140px;
+                    border: none;
+                    font-weight: bold;
+                    background: $loginButtonColor;
+                    color: $loginButtonTextColor;
+                    border-radius: 5px;
+                    margin-left: 7px;
+                    cursor: pointer;
+                }
+                
+                nav button:hover {
+                    background: $loginButtonHoverColor;
+                }
+                
+                .middle-container {
+                    flex: 1;
+                    margin-top: 40px;
+                }
+                
+                .middle-container .logo {
+                    display: block;
+                    margin: 0px auto;
+                    margin-top: 100px;
+                }
+                
+                .button-container {
+                    width: 585px;
+                    margin: 0px auto;
+                    position: relative;
+                    margin-top: -8px;
+                    text-align: center;
+                }
+                
+                .button-container .search-input {
+                    display: block;
+                    border: 1px solid $searchInputColor;
+                    color: $blackTextColor2;
+                    font-size: 16px;
+                    padding: 15px;
+                    padding-left: 45px;
+                    padding-right: 85px;
+                    border-radius: 25px;
+                    width: 100%;
+                    outline: none;
+                }
+                
+                .button-container .search-input:hover {
+                    border: 1px solid $searchInputColor;
+                    box-shadow: $shadowColor;
+                }
+                
+                .button-container .search-icon {
+                    width: 20px;
+                    opacity: .4;
+                    position: absolute;
+                    top: 15px;
+                    left: 15px;
+                }
+                
+                .button-container .mic-icon {
+                    width: 15px;
+                    position: absolute;
+                    top: 15px;
+                    right: 25px;
+                }
+                
+                .button-container .keyboard-icon {
+                    width: 20px;
+                    position: absolute;
+                    top: 13px;
+                    right: 60px;
+                }
+                
+                .sub-button {
+                    border: 1px solid transparent;
+                    padding: 10px 15px;
+                    background-color: #f1f1f17c;
+                    color: $blackTextColor2;
+                    font-size: 14px;
+                    border-radius: 4px;
+                    display: inline-block;
+                    margin-right: 10px;
+                    margin-top: 30px;
+                    outline: none;
+                    cursor: pointer;
+                    transition: border-color 100ms;
+                }
+                
+                .sub-button:hover {
+                    box-shadow: $shadowColor;
+                }
+                
+                footer {
+                    background: $footerBackgroundColor;
+                }
+                
+                footer h4 {
+                    color: rgba(0, 0, 0, 0.54);
+                    font-size: 16px;
+                    line-height: 40px;
+                    font-weight: 400;
+                    padding-left: 30px;
+                    border: 1px solid #eee;
+                }
+                
+                footer a {
+                    color: #5f6368;
+                    display: inline-block;
+                    padding: 12px 11.3px;
+                    font-size: 14px;
+                }
+                
+                footer a:hover {
+                    text-decoration: underline;
+                }
+                
+                .alt {
+                    border-top: 1px solid #ddd;
+                    display: flex;
+                }
+                
+                .sol {
+                    padding-left: 18px;
+                    flex: 1;
+                }
+                
+                .sag {
+                    padding-right: 18px;
+                }
